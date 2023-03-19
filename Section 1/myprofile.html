@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Profile</title>
+        <style>
+            body{
+                margin: 0;
+            }
+
+            nav{
+                border: 2px solid red;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                padding: 5px 100px;
+            }
+
+            .nav-links{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+
+            .nav-links p{
+                margin: 0 20px;
+            }
+
+            header{
+                padding: 0 100px;
+                display: grid;
+                grid-template-columns: 3fr 4fr;
+                margin-top: 50px;
+                background-image: linear-gradient(45deg, rgb(185, 37, 37),rgb(81, 236, 81));
+            }
+
+            .main-img{
+                height: 60vh;
+                display: block;
+                margin: auto;
+            }
+
+            .main-title{
+                font-size: 70px;
+                margin: 0;
+            }
+
+            .hero-content{
+                padding: 0 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <nav>
+            <div>
+                <h3>Logo</h3>
+            </div>
+            <div class="nav-links">
+                <p>Home</p>
+                <p>Login</p>
+                <p>Signup</p>
+                <p>Contact</p>
+            </div>
+        </nav>
+
+        <header>
+            <div class="hero-img">
+                <img class="main-img" src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg" alt="">
+            </div>
+            <div class="hero-content">
+                <p>Hello I am Sneha</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore blanditiis, soluta sapiente fuga quidem, ratione
+                    tempore at maiores iste omnis unde autem reiciendis
+                    molestiae amet. Deleniti explicabo quaerat non, eveniet
+                    rerum suscipit accusamus fugiat, libero eos vero ducimus
+                    tenetur sint dolorem minima voluptate quis? Beatae iusto
+                    ipsa quo excepturi perspiciatis.</p>
+                <button>About Me</button>
+            </div>
+        </header>
+
+    </body>
+</html>

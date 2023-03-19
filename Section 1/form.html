@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Admission</title>
+    </head>
+    <body>
+        <form>
+            <h1>Student Admission</h1>
+            <hr>
+            <label>Full Name</label>
+            <input type=" text" placeholder="Enter your Name" required
+                minlength="7">
+            <br><br>
+
+            <label>Email</label>
+            <input type="text" placeholder="Email" required>
+            <br><br>
+
+            <label>Date of Birth</label>
+            <input type="date" placeholder="Date of Birth">
+            <br><br>
+
+            <label>Address</label>
+            <br>
+            <textarea cols="30" rows="5"></textarea>
+            <br><br>
+
+            <label>Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <br><br>
+
+            <label>Contact</label>
+            <input type="number">
+
+            <br><br>
+            <label for="img">Upload Image</label>
+            <input id="img" type="file">
+
+            <br><br>
+            <label for="">Select your city</label>
+            <select>
+                <option>Lucknow</option>
+                <option>Mumbai/option>
+                <option>Goa</option>
+                <option>Ayodhya</option>
+                <option>Nainital</option>
+                <option>Cochin</option>
+            </select>
+
+                <br><br>
+                <label for="">Select your Course</label>
+                <input type="text" list="Course">
+                <datalist id="Course">
+                    <option>MCA</option>
+                    <option>BBA</option>
+                    <option>BTech</option>
+                    <option>BCA</option>
+                    <option>BA</option>
+                    <option>MBA</option>
+                </datalist>
+
+                <br><br>
+                <details>
+                    <summary>Terms & Conditions</summary>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Excepturi aliquid laudantium provident, necessitatibus a
+                        qui autem sapiente perspiciatis nihil ducimus, sequi
+                        ipsum aspernatur nostrum quasi porro laboriosam enim
+                        amet iusto.</p>
+                </details>
+
+                <br><br>
+                <button>Submit</button>
+
+            </form>
+
+        </body>
+    </html>
